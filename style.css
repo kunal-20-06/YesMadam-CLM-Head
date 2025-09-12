@@ -222,6 +222,147 @@ section { margin-bottom: 15px; }
   font-size: var(--font-size-lg);
   box-shadow: 0 0 8px rgba(233,30,99,0.3);
 }
+/* Market Opportunity Grid Layout */
+.market-grid {
+  display: flex;
+  gap: 36px;
+  align-items: flex-start;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+@media (max-width: 1100px) {
+  .market-grid {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+/* Market Statistics Cards Section */
+.market-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  min-width: 320px;
+  flex: 1 1 330px;
+}
+.market-stat-card {
+  background: linear-gradient(120deg, #232323 60%, #1a1a1a 100%);
+  box-shadow: 0 4px 24px rgba(255,75,139,0.03), var(--shadow-md);
+  border-radius: 14px;
+  border: 1.5px solid var(--color-card-border);
+  padding: 28px 18px 18px 18px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.market-stat-card:hover {
+  box-shadow: 0 0 18px 0 var(--color-primary), 0 6px 16px rgba(255,75,139,.12);
+  transform: translateY(-2px) scale(1.01);
+}
+.market-stat-card h3 {
+  font-size: var(--font-size-lg);
+  color: var(--color-pink-400);
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+.big-stat {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-white);
+  display: block;
+}
+.market-stat-card p {
+  font-size: var(--font-size-base);
+  margin-bottom: 4px;
+  color: var(--color-text-secondary);
+}
+.growth-rate {
+  display: inline-block;
+  color: var(--color-pink-500);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  margin-top: 6px;
+}
+
+/* YesMadam Metrics Boxed Card Section */
+.yesmadam-position {
+  flex: 2 1 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+}
+
+.position-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px 18px;
+  margin: 4px 0 10px 0;
+  width: 100%;
+}
+.position-metric-card {
+  background: #23232a;
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--color-card-border);
+  box-shadow: 0 1px 8px rgba(233,30,99,0.07), 0 0.5px 2px rgba(0,0,0,0.21);
+  padding: 18px 10px 12px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  position: relative;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+.position-metric-card:hover {
+  border-color: var(--color-pink-500);
+  box-shadow: 0 0 14px 0 var(--color-pink-500), 0 4px 12px rgba(225,31,99,0.13);
+}
+
+.metric-value {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-pink-400);
+  margin-bottom: 5px;
+}
+.metric-label {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  margin-bottom: 0;
+}
+
+/* Infographic/Chart Area */
+.chart-container {
+  background: #222225;
+  box-shadow: 0 2px 8px rgba(255,75,139,0.08);
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--color-card-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+/* Growth Trajectory Highlight & Target */
+.growth-trajectory .highlight, .growth-trajectory .target {
+  background: rgba(233,30,99,0.10);
+  border-radius: var(--radius-sm);
+  padding: 8px 14px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-pink-500);
+  font-weight: 600;
+}
+.growth-trajectory .target {
+  background: rgba(75,255,139,0.08);
+  color: var(--color-pink-400);
+  font-weight: 500;
+  margin-top: 8px;
+}
 
 /* Remove unnecessary button space */
 .btn, .btn--primary, .btn--outline { display: none!important; }
