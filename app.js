@@ -1,7 +1,7 @@
 // YesMadam CLM Pitch Presentation JavaScript - Updated for 11 slides
 
 let currentSlide = 1;
-const totalSlides = 11;
+const totalSlides = 12;
 let charts = {};
 
 // Initialize presentation when DOM is loaded
