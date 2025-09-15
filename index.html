@@ -1,136 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>The CLM Catalyst YesMadam Needs - Kunal Bhatia</title>
-  <link rel="stylesheet" href="style.css"/>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The CLM Catalyst YesMadam Needs - Kunal Bhatia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <div class="presentation-container">
-    <!-- Navigation Header -->
-    <header class="presentation-header">
-      <div class="progress-bar">
-        <div class="progress-fill" id="progressBar"></div>
-      </div>
-      <div class="slide-counter">
-        <span id="currentSlide">1</span> / <span id="totalSlides">12</span>
-      </div>
-    </header>
+    <div class="presentation-container">
+        <!-- Navigation Header -->
+        <header class="presentation-header">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar"></div>
+            </div>
+            <div class="slide-counter">
+                <span id="currentSlide">1</span> / <span id="totalSlides">10</span>
+            </div>
+        </header>
 
-    <!-- Slide 1: Executive Summary (unchanged) -->
-    <section class="slide active" data-slide="1">
-      <div class="slide-content">
-        <div class="hero-section">
-          <h1>The CLM Catalyst YesMadam Needs</h1>
-          <h2>Why Kunal Bhatia is Your Strategic IPO-Ready Head of CLM</h2>
-          <div class="founder-recognition">
-            <p class="highlight">✨ Previously recognized by Founder Mayank Arya</p>
-            <p class="subtitle">Strategic timing for IPO preparation journey</p>
-          </div>
-        </div>
-        <div class="value-props-grid">
-          <div class="value-prop-card">
-            <h3>Proven Scale</h3>
-            <p class="stat">140Mn+ Monthly Users</p>
-            <p>Only CLM specialist with beauty industry experience at massive scale</p>
-          </div>
-          <div class="value-prop-card">
-            <h3>Proven Results</h3>
-            <p class="stat">39% ARPU Increase</p>
-            <p>Direct expertise in subscription models and revenue optimization</p>
-          </div>
-          <div class="value-prop-card">
-            <h3>Deep CLM</h3>
-            <p class="stat">157% LTV</p>
-            <p>Lifecycle design, cohorts, and retention acceleration</p>
-          </div>
-          <div class="value-prop-card">
-            <h3>IPO-Ready</h3>
-            <p class="stat">CAC, CLTV, NRR</p>
-            <p>Metrics that drive public market confidence</p>
-          </div>
-        </div>
-      </div>
-    </section>
+        <!-- Slide 1: Executive Summary -->
+        <section class="slide active" data-slide="1">
+            <div class="slide-content">
+                <div class="hero-section">
+                    <h1>The CLM Catalyst YesMadam Needs</h1>
+                    <h2>Why Kunal Bhatia is Your Strategic IPO-Ready Head of CLM</h2>
+                    <div class="founder-recognition">
+                        <p class="highlight">✨ Previously recognized by Founder Mayank Arya</p>
+                        <p class="subtitle">Strategic timing for IPO preparation journey</p>
+                    </div>
+                </div>
+                <div class="value-props-grid">
+                    <div class="value-prop-card">
+                        <h3>Proven Scale</h3>
+                        <p class="stat">140Mn+ Monthly Users</p>
+                        <p>Only CLM specialist with beauty industry experience at massive scale</p>
+                    </div>
+                    <div class="value-prop-card">
+                        <h3>Proven Results</h3>
+                        <p class="stat">39% ARPU Increase</p>
+                        <p>Direct expertise in subscription models and revenue optimization</p>
+                    </div>
+                    <div class="value-prop-card">
+                        <h3>Proven Technology</h3>
+                        <p class="stat">Advanced MarTech</p>
+                        <p>CleverTap, MoEngage, WebEngage proficiency for immediate impact</p>
+                    </div>
+                    <div class="value-prop-card">
+                        <h3>IPO-Ready Metrics</h3>
+                        <p class="stat">157% LTV Improvement</p>
+                        <p>CLTV, retention, cohort analysis expertise for public markets</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Slide 2: Market Opportunity & Position (unchanged) -->
-    <section class="slide" data-slide="2">
-      <div class="slide-content">
-        <h2>Market Opportunity & YesMadam’s Position</h2>
-        <ul class="bullets">
-          <li>India beauty market: $66.9B by 2034 (10.8% CAGR)</li>
-          <li>Home services TAM: Rs 4,990–5,070B in 2024</li>
-          <li>Beauty tech market: $6.7B by 2030 (22.8% CAGR)</li>
-          <li>YesMadam: Rs 200Cr revenue, 2L monthly customers, 80% repeat rate</li>
-        </ul>
-        <div class="chart-wrap">
-          <canvas id="marketChart"></canvas>
-        </div>
-      </div>
-    </section>
+        <!-- Slide 2: Market Opportunity -->
+        <section class="slide" data-slide="2">
+            <div class="slide-content">
+                <h1>Market Opportunity & YesMadam's Position</h1>
+                <div class="market-grid">
+                    <div class="market-stats">
+                        <div class="market-stat-card">
+                            <h3>India Beauty Market</h3>
+                            <p class="big-stat">$66.9B by 2034</p>
+                            <p>10.8% CAGR growth trajectory</p>
+                        </div>
+                        <div class="market-stat-card">
+                            <h3>Home Services TAM</h3>
+                            <p class="big-stat">₹5,070B in 2024</p>
+                            <p>Massive addressable opportunity</p>
+                        </div>
+                        <div class="market-stat-card">
+                            <h3>Beauty Tech Market</h3>
+                            <p class="big-stat">$6.7B by 2030</p>
+                            <p>22.8% CAGR acceleration</p>
+                        </div>
+                    </div>
+                    <div class="yesmadam-position">
+                        <h3>YesMadam's Current Position</h3>
+                        <div class="chart-container" style="height: 300px; position: relative;">
+                            <canvas id="marketChart"></canvas>
+                        </div>
+                        <div class="position-metrics">
+                            <div class="metric">
+                                <span class="metric-value">₹200Cr</span>
+                                <span class="metric-label">Annual Revenue</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">80%</span>
+                                <span class="metric-label">Repeat Rate</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">2L</span>
+                                <span class="metric-label">Monthly Customers</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">60+</span>
+                                <span class="metric-label">Cities</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Slide 3: CLM Challenges & Competitive Positioning (unchanged) -->
-    <section class="slide" data-slide="3">
-      <div class="slide-content">
-        <h2>CLM Challenges & Competitive Positioning</h2>
-        <div class="two-col">
-          <div>
-            <h3>Key Challenges</h3>
-            <ul class="bullets">
-              <li>Urban Company scale and brand momentum</li>
-              <li>High CAC → retention needs to carry growth</li>
-              <li>Fragmented unorganized competition</li>
-              <li>Subscription engine for predictable revenue</li>
-            </ul>
-          </div>
-          <div>
-            <h3>YesMadam Advantages</h3>
-            <ul class="bullets">
-              <li>Transparent mono-dose model and trust</li>
-              <li>Tech-enabled ops; 4.6 app rating</li>
-              <li>Asset-light, profitable growth</li>
-              <li>Strong brand post–Shark Tank success</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+        <!-- Slide 3: CLM Challenges & Competitive Positioning -->
+        <section class="slide" data-slide="3">
+            <div class="slide-content">
+                <h1>CLM Challenges & Competitive Positioning</h1>
+                <div class="competitive-analysis">
+                    <div class="challenges-section">
+                        <h3>Current Market Challenges</h3>
+                        <div class="challenge-cards">
+                            <div class="challenge-card">
+                                <h4>Urban Company Dominance</h4>
+                                <p class="stat">₹1,145Cr Revenue</p>
+                                <p>Market leader requiring strategic differentiation</p>
+                            </div>
+                            <div class="challenge-card">
+                                <h4>Acquisition Costs</h4>
+                                <p class="stat">High CAC</p>
+                                <p>Retention focus critical for unit economics</p>
+                            </div>
+                            <div class="challenge-card">
+                                <h4>Market Fragmentation</h4>
+                                <p class="stat">Local Players</p>
+                                <p>Need for subscription models to drive recurring revenue</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advantages-section">
+                        <h3>YesMadam's Competitive Advantages</h3>
+                        <div class="advantage-cards">
+                            <div class="advantage-card">
+                                <div class="advantage-icon">🔍</div>
+                                <h4>Transparent Pricing</h4>
+                                <p>Mono-dose authenticity guarantee builds trust</p>
+                            </div>
+                            <div class="advantage-card">
+                                <div class="advantage-icon">📱</div>
+                                <h4>Tech-Enabled Platform</h4>
+                                <p>4.6 app rating with superior UX</p>
+                            </div>
+                            <div class="advantage-card">
+                                <div class="advantage-icon">💰</div>
+                                <h4>Profitable Model</h4>
+                                <p>₹20Cr PAT, 76% ROI for partners</p>
+                            </div>
+                            <div class="advantage-card">
+                                <div class="advantage-icon">🏆</div>
+                                <h4>Brand Recognition</h4>
+                                <p>Post-Shark Tank success and market visibility</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Slide 4: Quantified Achievements & Expertise (unchanged) -->
-    <section class="slide" data-slide="4">
-      <div class="slide-content">
-        <h2>Quantified Achievements & Expertise</h2>
-        <div class="metrics-grid">
-          <div class="metric-card">
-            <h3>ARPU</h3>
-            <p class="stat">+39%</p>
-            <p>Gamification & lifecycle</p>
-          </div>
-          <div class="metric-card">
-            <h3>LTV</h3>
-            <p class="stat">+157%</p>
-            <p>Retention systems</p>
-          </div>
-          <div class="metric-card">
-            <h3>Churn</h3>
-            <p class="stat">-35%</p>
-            <p>90-day optimization</p>
-          </div>
-          <div class="metric-card">
-            <h3>Scale</h3>
-            <p class="stat">140Mn+</p>
-            <p>Monthly users managed</p>
-          </div>
-        </div>
-      </div>
-    </section>
+       <!-- Slide 4: Quantified Achievements -->
+        <section class="slide" data-slide="4">
+            <div class="slide-content">
+                <h1>Quantified Achievements & Expertise</h1>
+                <div class="achievements-dashboard">
+                    <div class="achievement-highlight">
+                        <h2>Kunal's Proven Track Record</h2>
+                        <p>Consistent retention optimization across diverse platforms</p>
+                    </div>
+                    <div class="metrics-grid">
+                        <div class="metric-category">
+                            <h3>Retention Mastery</h3>
+                            <div class="metric-cards">
+                                <div class="metric-card">
+                                    <p class="company">Multipl</p>
+                                    <p class="metric-big">39% ARPU ↑</p>
+                                    <p class="metric-small">35% churn reduction</p>
+                                </div>
+                                <div class="metric-card">
+                                    <p class="company">Paytm</p>
+                                    <p class="metric-big">110% Retention ↑</p>
+                                    <p class="metric-small">71% daily opt-ins increase</p>
+                                </div>
+                                <div class="metric-card">
+                                    <p class="company">Loco</p>
+                                    <p class="metric-big">157% LTV ↑</p>
+                                    <p class="metric-small">19% engagement boost</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="metric-category">
+                            <h3>Growth Excellence</h3>
+                            <div class="chart-container" style="height: 200px; position: relative;">
+                                <canvas id="achievementsChart"></canvas>
+                            </div>
+                            <div class="growth-stats">
+                                <div class="growth-stat">
+                                    <span class="value">23.2%</span>
+                                    <span class="label">Install-to-goal conversion</span>
+                                </div>
+                                <div class="growth-stat">
+                                    <span class="value">₹210</span>
+                                    <span class="label">CAC per goal</span>
+                                </div>
+                                <div class="growth-stat">
+                                    <span class="value">₹736.4Cr</span>
+                                    <span class="label">Payment volume generated</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scale-indicator">
+                        <h3>Scale Management Expertise</h3>
+                        <div class="scale-metrics">
+                            <div class="scale-metric">
+                                <span class="scale-number">140Mn+</span>
+                                <span class="scale-label">Monthly Users Managed</span>
+                            </div>
+                            <div class="scale-metric">
+                                <span class="scale-number">38Mn+</span>
+                                <span class="scale-label">Daily Active Users</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <!-- Slide 5: NEW Quantified Achievements & Proven Expertise (ADDED) -->
     <section class="slide" data-slide="5">
       <div class="slide-content">
-        <h2>Quantified Achievements & Proven Expertise</h2>
+        <h2>Proven Expertise</h2>
 
         <div class="three-col">
           <div class="card">
@@ -166,184 +266,486 @@
       </div>
     </section>
 
-    <!-- Slide 6: Perfect Strategic Fit (unchanged) -->
-    <section class="slide" data-slide="6">
-      <div class="slide-content">
-        <h2>Perfect Strategic Fit Analysis</h2>
-        <ul class="bullets">
-          <li>7–12 yrs CLM requirement → 12+ yrs total, 8+ yrs growth</li>
-          <li>Retention & LTV record → 39% ARPU, 157% LTV</li>
-          <li>MarTech stack → CleverTap, MoEngage, WebEngage, Amplitude</li>
-          <li>Leadership at scale → 140Mn+ users</li>
-        </ul>
-      </div>
-    </section>
+  <!-- Slide 6: Strategic Fit Analysis -->
+        <section class="slide" data-slide="5">
+            <div class="slide-content">
+                <h1>Perfect Strategic Fit Analysis</h1>
+                <div class="fit-analysis">
+                    <div class="requirements-match">
+                        <h3>Role Requirements vs Kunal's Experience</h3>
+                        <div class="requirements-grid">
+                            <div class="requirement-row">
+                                <div class="requirement">7-12 years CLM experience</div>
+                                <div class="match-indicator perfect">✓</div>
+                                <div class="experience">12+ years total, 8+ growth marketing</div>
+                            </div>
+                            <div class="requirement-row">
+                                <div class="requirement">Proven retention & LTV track record</div>
+                                <div class="match-indicator perfect">✓</div>
+                                <div class="experience">39% ARPU, 157% LTV improvements</div>
+                            </div>
+                            <div class="requirement-row">
+                                <div class="requirement">MarTech stack expertise</div>
+                                <div class="match-indicator perfect">✓</div>
+                                <div class="experience">CleverTap, MoEngage, advanced automation</div>
+                            </div>
+                            <div class="requirement-row">
+                                <div class="requirement">Analytics & stakeholder leadership</div>
+                                <div class="match-indicator perfect">✓</div>
+                                <div class="experience">140Mn+ user scale management</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="beauty-relevance">
+                        <h3>Beauty Industry Alignment</h3>
+                        <div class="relevance-points">
+                            <div class="relevance-point">
+                                <div class="point-icon">💄</div>
+                                <div class="point-content">
+                                    <h4>Direct Beauty Sector Experience</h4>
+                                    <p>Campaign experience across beauty and lifestyle platforms</p>
+                                </div>
+                            </div>
+                            <div class="relevance-point">
+                                <div class="point-icon">👩</div>
+                                <div class="point-content">
+                                    <h4>Women-Centric Marketing</h4>
+                                    <p>Strategies alignment with YesMadam's core audience</p>
+                                </div>
+                            </div>
+                            <div class="relevance-point">
+                                <div class="point-icon">🔄</div>
+                                <div class="point-content">
+                                    <h4>Subscription Model Expertise</h4>
+                                    <p>Applicable to beauty services recurring revenue</p>
+                                </div>
+                            </div>
+                            <div class="relevance-point">
+                                <div class="point-icon">🎯</div>
+                                <div class="point-content">
+                                    <h4>Lifestyle Customer Behavior</h4>
+                                    <p>Understanding wellness and beauty customer journey</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Slide 7: 90-Day Impact Roadmap (unchanged) -->
-    <section class="slide" data-slide="7">
-      <div class="slide-content">
-        <h2>90-Day Impact Roadmap</h2>
-        <div class="timeline">
-          <div class="phase">
-            <h3>0–30 Days: Foundation</h3>
-            <ul class="bullets">
-              <li>Audit & optimize CLM platform</li>
-              <li>Segmentation blueprint</li>
-              <li>Lifecycle automation</li>
-              <li>Churn prediction</li>
-            </ul>
-          </div>
-          <div class="phase">
-            <h3>31–60 Days: Optimization</h3>
-            <ul class="bullets">
-              <li>Subscription design & launch</li>
-              <li>Cross-sell/upsell workflows</li>
-              <li>Personalization engine</li>
-              <li>Retention campaign tuning</li>
-            </ul>
-          </div>
-          <div class="phase">
-            <h3>61–90 Days: Scale</h3>
-            <ul class="bullets">
-              <li>Advanced dashboards</li>
-              <li>Tier-2/3 CLM support</li>
-              <li>Partner channels</li>
-              <li>IPO metrics standardization</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+        <!-- Slide 7: 90-Day Impact Roadmap -->
+        <section class="slide" data-slide="6">
+            <div class="slide-content">
+                <h1>90-Day Impact Roadmap</h1>
+                <div class="roadmap-timeline">
+                    <div class="phase-container">
+                        <div class="phase active">
+                            <div class="phase-header">
+                                <div class="phase-number">1</div>
+                                <div class="phase-title">
+                                    <h3>Foundation & Audit</h3>
+                                    <p>Days 0-30</p>
+                                </div>
+                            </div>
+                            <div class="phase-content">
+                                <ul class="deliverables-list">
+                                    <li>CLM platform audit & optimization (CleverTap/MoEngage setup)</li>
+                                    <li>Customer segmentation strategy development</li>
+                                    <li>Automated lifecycle journey implementation</li>
+                                    <li>Churn prediction model deployment</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="phase">
+                            <div class="phase-header">
+                                <div class="phase-number">2</div>
+                                <div class="phase-title">
+                                    <h3>Implementation & Optimization</h3>
+                                    <p>Days 31-60</p>
+                                </div>
+                            </div>
+                            <div class="phase-content">
+                                <ul class="deliverables-list">
+                                    <li>Subscription model design & launch</li>
+                                    <li>Cross-selling & upselling workflow automation</li>
+                                    <li>Personalization engine implementation</li>
+                                    <li>Retention campaign optimization</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="phase">
+                            <div class="phase-header">
+                                <div class="phase-number">3</div>
+                                <div class="phase-title">
+                                    <h3>Scaling & Advanced Analytics</h3>
+                                    <p>Days 61-90</p>
+                                </div>
+                            </div>
+                            <div class="phase-content">
+                                <ul class="deliverables-list">
+                                    <li>Advanced analytics dashboard creation</li>
+                                    <li>Tier-2/3 city expansion CLM support</li>
+                                    <li>Partner channel integration</li>
+                                    <li>IPO-ready metrics standardization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roadmap-timeline-visual">
+                        <div class="timeline-line"></div>
+                        <div class="timeline-markers">
+                            <div class="marker active" data-phase="1">30</div>
+                            <div class="marker" data-phase="2">60</div>
+                            <div class="marker" data-phase="3">90</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Slide 8: ROI Projections & Business Case (unchanged) -->
-    <section class="slide" data-slide="8">
-      <div class="slide-content">
-        <h2>ROI Projections & Business Case</h2>
-        <div class="two-col">
-          <div>
-            <h3>Investment</h3>
-            <ul class="bullets">
-              <li>Head of CLM: Rs 50–70L</li>
-              <li>MarTech: Rs 15–25L</li>
-              <li>Team: Rs 30–50L</li>
-              <li>Total: Rs 95–145L</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Returns</h3>
-            <ul class="bullets">
-              <li>ARPU +25–35% → Rs 50–70Cr</li>
-              <li>Churn –30–40% → Rs 30–50Cr</li>
-              <li>CLTV +40–60% → Rs 80–120Cr</li>
-              <li>ROI 300–500%</li>
-            </ul>
-          </div>
-        </div>
-        <div class="chart-wrap">
-          <canvas id="roiChart"></canvas>
-        </div>
-      </div>
-    </section>
+        <!-- Slide 8: ROI Projections -->
+        <section class="slide" data-slide="7">
+            <div class="slide-content">
+                <h1>ROI Projections & Business Case</h1>
+                <div class="roi-analysis">
+                    <div class="investment-section">
+                        <h3>Investment Breakdown</h3>
+                        <div class="investment-cards">
+                            <div class="investment-card">
+                                <h4>Head of CLM Salary</h4>
+                                <p class="amount">₹50-70L annually</p>
+                            </div>
+                            <div class="investment-card">
+                                <h4>MarTech Platform Costs</h4>
+                                <p class="amount">₹15-25L annually</p>
+                            </div>
+                            <div class="investment-card">
+                                <h4>Team Expansion</h4>
+                                <p class="amount">₹30-50L annually</p>
+                            </div>
+                        </div>
+                        <div class="total-investment">
+                            <h4>Total Investment: ₹95-145L annually</h4>
+                        </div>
+                    </div>
+                    <div class="returns-section">
+                        <h3>Expected Returns</h3>
+                        <div class="chart-container" style="height: 300px; position: relative;">
+                            <canvas id="roiChart"></canvas>
+                        </div>
+                        <div class="roi-breakdown">
+                            <div class="roi-item">
+                                <span class="roi-label">ARPU Growth (25-35%)</span>
+                                <span class="roi-value">₹50-70Cr</span>
+                            </div>
+                            <div class="roi-item">
+                                <span class="roi-label">Churn Reduction (30-40%)</span>
+                                <span class="roi-value">₹30-50Cr</span>
+                            </div>
+                            <div class="roi-item">
+                                <span class="roi-label">CLTV Improvement (40-60%)</span>
+                                <span class="roi-value">₹80-120Cr</span>
+                            </div>
+                            <div class="total-roi">
+                                <span class="roi-label">Total ROI</span>
+                                <span class="roi-value">300-500%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Slide 9: Competitive Hiring Advantages (unchanged) -->
-    <section class="slide" data-slide="9">
-      <div class="slide-content">
-        <h2>Competitive Hiring Advantages</h2>
-        <ul class="bullets">
-          <li>Scarce CLM leaders with beauty experience</li>
-          <li>Immediate time-to-value vs 6–12 month ramp</li>
-          <li>Vendor relationships (CleverTap/MoEngage)</li>
-          <li>Cross-industry best practices</li>
-        </ul>
-      </div>
-    </section>
+        <!-- Slide 9: Competitive Hiring Advantages -->
+        <section class="slide" data-slide="8">
+            <div class="slide-content">
+                <h1>Competitive Hiring Advantages</h1>
+                <div class="hiring-advantages">
+                    <div class="scarcity-section">
+                        <h3>Market Scarcity & Timing</h3>
+                        <div class="scarcity-points">
+                            <div class="scarcity-point">
+                                <div class="point-number">1</div>
+                                <div class="point-content">
+                                    <h4>Limited CLM Specialists</h4>
+                                    <p>Rare combination of beauty industry experience with proven CLM expertise</p>
+                                </div>
+                            </div>
+                            <div class="scarcity-point">
+                                <div class="point-number">2</div>
+                                <div class="point-content">
+                                    <h4>High Market Demand</h4>
+                                    <p>Growing demand for retention experts in expanding beauty-tech market</p>
+                                </div>
+                            </div>
+                            <div class="scarcity-point">
+                                <div class="point-number">3</div>
+                                <div class="point-content">
+                                    <h4>Cross-Industry Expertise</h4>
+                                    <p>Unique combination: beauty + fintech + gaming experience</p>
+                                </div>
+                            </div>
+                            <div class="scarcity-point">
+                                <div class="point-number">4</div>
+                                <div class="point-content">
+                                    <h4>Immediate Availability</h4>
+                                    <p>Ready for strategic implementation without delay</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advantages-comparison">
+                        <h3>Hiring Kunal vs Market Alternative</h3>
+                        <div class="comparison-table">
+                            <div class="comparison-row header">
+                                <div class="comparison-cell">Factor</div>
+                                <div class="comparison-cell kunal">Kunal Bhatia</div>
+                                <div class="comparison-cell alternative">Market Alternative</div>
+                            </div>
+                            <div class="comparison-row">
+                                <div class="comparison-cell">Learning Curve</div>
+                                <div class="comparison-cell kunal">Day 1 Impact</div>
+                                <div class="comparison-cell alternative">6-12 Months</div>
+                            </div>
+                            <div class="comparison-row">
+                                <div class="comparison-cell">Beauty Experience</div>
+                                <div class="comparison-cell kunal">Proven Track Record</div>
+                                <div class="comparison-cell alternative">Industry Learning Required</div>
+                            </div>
+                            <div class="comparison-row">
+                                <div class="comparison-cell">Vendor Relationships</div>
+                                <div class="comparison-cell kunal">Established (CleverTap, MoEngage)</div>
+                                <div class="comparison-cell alternative">New Negotiations</div>
+                            </div>
+                            <div class="comparison-row">
+                                <div class="comparison-cell">Proven Methodologies</div>
+                                <div class="comparison-cell kunal">Ready-to-implement</div>
+                                <div class="comparison-cell alternative">Trial & Error Phase</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Slide 10: Impact of CLM for IPO Readiness (unchanged) -->
-    <section class="slide" data-slide="10">
-      <div class="slide-content">
-        <h2>Impact of CLM for IPO Readiness</h2>
-        <ul class="bullets">
-          <li>CAC optimization, CLTV maximization</li>
-          <li>MRR and NRR acceleration</li>
-          <li>Subscription predictability</li>
-          <li>Transparent unit economics and cohorts</li>
-        </ul>
-      </div>
-    </section>
+        <!-- Slide 10: IPO Impact -->
+        <section class="slide" data-slide="9">
+            <div class="slide-content">
+                <h1>CLM Impact for IPO Readiness</h1>
+                <div class="ipo-impact">
+                    <div class="critical-metrics">
+                        <h3>Critical Public Market Metrics</h3>
+                        <div class="metrics-dashboard">
+                            <div class="metric-group">
+                                <div class="metric-item">
+                                    <div class="metric-icon">💰</div>
+                                    <h4>Customer Acquisition Cost (CAC)</h4>
+                                    <p>Optimization for sustainable unit economics</p>
+                                </div>
+                                <div class="metric-item">
+                                    <div class="metric-icon">📈</div>
+                                    <h4>Customer Lifetime Value (CLTV)</h4>
+                                    <p>Maximization through retention strategies</p>
+                                </div>
+                            </div>
+                            <div class="metric-group">
+                                <div class="metric-item">
+                                    <div class="metric-icon">🔄</div>
+                                    <h4>Monthly Recurring Revenue (MRR)</h4>
+                                    <p>Growth through subscription model implementation</p>
+                                </div>
+                                <div class="metric-item">
+                                    <div class="metric-icon">📊</div>
+                                    <h4>Net Revenue Retention (NRR)</h4>
+                                    <p>Improvement via cross-selling and upselling</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="public-readiness">
+                        <h3>Public Market Readiness Benefits</h3>
+                        <div class="readiness-cards">
+                            <div class="readiness-card">
+                                <h4>Predictable Revenue</h4>
+                                <p>Subscription models provide investors with revenue visibility and growth predictability essential for public markets</p>
+                            </div>
+                            <div class="readiness-card">
+                                <h4>Cohort Analytics</h4>
+                                <p>Retention analytics demonstrate customer value creation and business sustainability to institutional investors</p>
+                            </div>
+                            <div class="readiness-card">
+                                <h4>Unit Economics Transparency</h4>
+                                <p>Clear CAC payback periods and LTV ratios build investor confidence in scalable business model</p>
+                            </div>
+                            <div class="readiness-card">
+                                <h4>Scalable Operations</h4>
+                                <p>Customer success operations framework supports rapid expansion without proportional cost increases</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="investor-confidence">
+                        <h3>Building Investor Confidence</h3>
+                        <div class="confidence-metrics">
+                            <div class="confidence-item">
+                                <span class="confidence-number">80%</span>
+                                <span class="confidence-label">Current Repeat Rate</span>
+                                <span class="confidence-target">→ 85%+ Target</span>
+                            </div>
+                            <div class="confidence-item">
+                                <span class="confidence-number">₹200Cr</span>
+                                <span class="confidence-label">Current ARR</span>
+                                <span class="confidence-target">→ ₹400Cr+ Growth</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <!-- Slide 11: Strategic Decision Point (NEW, replaces old single slide) -->
     <section class="slide" data-slide="11">
       <div class="slide-content">
-        <h2>Strategic Decision Point</h2>
-
-        <div class="two-col">
-          <div class="card">
-            <h3>⚡ Why Now is Critical</h3>
-            <ul class="bullets">
-              <li>🎯 IPO Window — 12–18 month timeline requires immediate CLM infrastructure</li>
-              <li>📈 Market Momentum — Rs 200Cr revenue growth demands retention optimization</li>
-              <li>🏆 Competitive Edge — First-mover advantage in sophisticated beauty CLM</li>
-              <li>💰 Cost of Delay — 6–12 month learning curve = Rs 50–100Cr opportunity cost</li>
-            </ul>
-          </div>
-          <div class="card">
-            <h3>🎲 Risk vs Reward Analysis</h3>
-            <ul class="bullets">
-              <li>❌ Risks of Not Hiring — Delayed IPO readiness; high CAC; missed revenue optimization; disadvantage vs Urban Company; limited scalability for 100+ cities</li>
-              <li>✅ Benefits of Hiring Kunal — 300–500% ROI in 12 months; IPO-ready metrics; Rs 160–240Cr value creation; immediate execution; proven track record</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="note">
-          <h3>🤝 Founder Recognition & Timing</h3>
-          <p>Mayank Arya’s previous appreciation signals founder-level recognition of Kunal’s strategic capabilities about a year ago; timing now aligns prior interest with expansion and IPO preparation.</p>
-          <ul class="bullets">
-            <li>✨ From startup recognition to IPO preparation leadership</li>
-            <li>✨ Proven expertise now matches YesMadam’s strategic needs</li>
-            <li>✨ Founder vision + operational excellence = market leadership</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+       <h1>Strategic Decision Point</h1>
+                <div class="cta-section">
+                    <div class="founder-recognition-highlight">
+                        <div class="recognition-card">
+                            <div class="recognition-icon">⭐</div>
+                            <div class="recognition-content">
+                                <h3>Founder Recognition</h3>
+                                <p><strong>Mayank Arya previously recognized Kunal's strategic capabilities</strong></p>
+                                <p>Founder-level appreciation of growth marketing expertise during earlier interaction</p>
+                                <p class="timing-note">Perfect timing alignment with company expansion and IPO preparation phase</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="urgency-factors">
+                        <h3>Why Act Now?</h3>
+                        <div class="urgency-grid">
+                            <div class="urgency-item">
+                                <div class="urgency-icon">🚀</div>
+                                <h4>IPO Timeline</h4>
+                                <p>CLM foundation critical for public market readiness</p>
+                            </div>
+                            <div class="urgency-item">
+                                <div class="urgency-icon">💎</div>
+                                <h4>Rare Talent</h4>
+                                <p>Limited availability of proven CLM specialists</p>
+                            </div>
+                            <div class="urgency-item">
+                                <div class="urgency-icon">⚡</div>
+                                <h4>Immediate Impact</h4>
+                                <p>Day-1 implementation with established expertise</p>
+                            </div>
+                            <div class="urgency-item">
+                                <div class="urgency-icon">📈</div>
+                                <h4>Growth Acceleration</h4>
+                                <p>300-500% ROI potential with proven track record</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </section>
 
     <!-- Slide 12: Ready to Transform YesMadam’s CLM (NEW) -->
     <section class="slide" data-slide="12">
       <div class="slide-content">
+         <div class="hero-section">
         <h2>Ready to Transform YesMadam’s CLM</h2>
-        <ul class="bullets">
-          <li>🚀 The Transformation Awaits — From industry recognition to IPO leadership, Kunal is ready to architect lifecycle excellence and drive public market success.</li>
-          <li>📈 Revenue Acceleration — Rs 160–240Cr value creation through CLM optimization</li>
-          <li>🎯 IPO Excellence — Public market-ready metrics and scalable infrastructure</li>
-          <li>🏆 Market Leadership — Differentiation via superior customer experience</li>
-        </ul>
-
-        <div class="cta-stack">
-          <div class="contact-block">
-            <h3>🤝 Let’s Connect</h3>
-            <p><strong>Kunal Bhatia</strong> — Your Next Head of CLM, ready to drive YesMadam’s IPO success.</p>
-            <p>
-              Phone: <a href="https://wa.me/918077442127?text=Hi%20Kunal%2C%20I%20came%20across%20your%20profile%20and%20would%20like%20to%20connect%20about%20a%20suitable%20role." target="_blank">+91 807 744 2127</a> |
-              <a href="mailto:kunal20bhatia06@gmail.com">Email</a> |
-              <a href="https://kunal-gamebeard.my.canva.site/growth-retention-portfolio" target="_blank">Portfolio</a> |
-              <a href="https://www.linkedin.com/in/kunal20bhatia06/" target="_blank">LinkedIn</a> |
-              <a href="https://www.notion.so/Kunal-Bhatia-Cover-Letter-01878f911e3d44a9afff2b9b71c042c8" target="_blank">Cover Letter</a>
-            </p>
-          </div>
-
-          <div class="next-steps">
-            <h3>⚡ Immediate Next Steps</h3>
-            <ol class="steps">
-              <li><strong>Schedule Interview</strong> — Align on vision and priorities within 48 hours</li>
-              <li><strong>Define Success Metrics</strong> — Set KPIs and 90-day milestones</li>
-              <li><strong>Structure Offer</strong> — Compensation aligned to IPO success</li>
-              <li><strong>Begin Transformation</strong> — Day 1 implementation of CLM roadmap</li>
-            </ol>
-            <p class="closing">🎯 The choice is clear: accelerate IPO readiness with proven CLM leadership, or risk missing the market window that defines the next growth phase. 📞 Ready to transform YesMadam’s future? Let’s discuss how Kunal can architect lifecycle excellence starting today.</p>
-          </div>
+          <div class="founder-recognition">
+                        <p class="highlight">✨ Proven at reducing churn, scaling retention, loyalty, ARPU, and CLTV with precision</p>
+                        <p class="subtitle">Aap bas service experience do, retention ka intezam hum karenge</p>
+                    </div>
+              </div>
+               <div class="value-props-grid">
+                  <div class="value-prop-card">
+                    <h3>🚀 The Transformation Awaits</h3>
+                      <p class="stat">Industry → IPO</p>
+                      <p>From recognition to public markets, Kunal architects lifecycle excellence.</p>
+                  </div>
+                  <div class="value-prop-card">
+                    <h3>📈 Revenue Acceleration</h3>
+                      <p class="stat">₹160–240Cr Impact</p>
+                      <p>Value creation through CLM optimization and monetization strategies.</p>
+                  </div>
+                  <div class="value-prop-card">
+                    <h3>🎯 IPO Excellence</h3>
+                      <p class="stat">Public Market Ready</p>
+                      <p>Scalable infrastructure and metrics designed for IPO leadership.</p>
+                  </div>
+                  <div class="value-prop-card">
+                    <h3>🏆 Market Leadership</h3>
+                      <p class="stat">Differentiated Edge</p>
+                      <p>Superior customer experience as the lever for category leadership.</p>
+                  </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
+
+    <!-- Slide 13: Connect Now -->
+    <section class="slide" data-slide="13">
+      <div class="slide-content">
+              <div class="contact-section">
+                        <h2>🤝 Let’s Connect</h2>
+                        <div class="contact-info">
+                            <div class="contact-details">
+                                <h3>Kunal Bhatia</h3>
+                                <p>Your Next Head of CLM, ready to drive YesMadam’s IPO success.</p>
+                                <div class="contact-links">
+                                    <div class="contact-item">
+                                        <span class="contact-label">Email:</span>
+                                        <span class="contact-value"> <a href="mailto:kunal20bhatia06@gmail.com">kunal20bhatia06@gmail.com</a></span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <span class="contact-label">Phone:</span>
+                                        <span class="contact-value"><a href="https://wa.me/918077442127?text=Hi%20Kunal%2C%20I%20came%20across%20your%20profile%20and%20would%20like%20to%20connect%20about%20a%20suitable%20role." target="_blank">+91 807 744 2127</a> </span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <span class="contact-label">LinkedIn:</span>
+                                        <span class="contact-value"><a href="https://www.linkedin.com/in/kunal20bhatia06/" target="_blank">linkedin.com/in/kunal20bhatia06</a></span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <span class="contact-label">Portfolio:</span>
+                                        <span class="contact-value"><a href="https://kunal-gamebeard.my.canva.site/growth-retention-portfolio" target="_blank">Kunal Bhatia - The CLM Guru</a></span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <span class="contact-label">Cover Letter:</span>
+                                        <span class="contact-value"><a href="https://www.notion.so/Kunal-Bhatia-Cover-Letter-01878f911e3d44a9afff2b9b71c042c8" target="_blank">Kunal - Cover Letter</a></span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <span class="contact-label">Location:</span>
+                                        <span class="contact-value">Bengaluru, KA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="next-steps">
+                            <h4>Immediate Next Steps</h4>
+                            <div class="steps-list">
+                                <div class="step-item">
+                                    <div class="step-number">1</div>
+                                    <span>Schedule strategic discussion with leadership team</span>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">2</div>
+                                    <span>Review detailed 90-day implementation plan</span>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">3</div>
+                                    <span>Finalize offer terms for IPO-ready CLM leadership</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="final-message">
+                            <p class="highlight-text">The CLM catalyst YesMadam needs is ready to drive your IPO success.</p>
+                            <p class="sub-text">Let's transform customer lifecycle management together.</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
 
     <!-- Navigation Controls -->
     <footer class="presentation-footer">
